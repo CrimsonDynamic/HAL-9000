@@ -7,3 +7,10 @@ require('dotenv').config();
 client.login(process.env.API_KEY);
 
 client.on('ready', readyDiscord);
+
+function readyDiscord() {
+    console.log('ready!')
+}
+const commandHandler = require('./commands');
+
+client.on('message', commandHandler);
