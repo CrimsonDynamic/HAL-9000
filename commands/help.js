@@ -10,7 +10,7 @@ module.exports = function(msg, args,client,user){
         .setThumbnail('attachment://Cecille.jpg')
         .addFields(
             { name: '.ping', value: 'Bot responds with Pong! (Used to test if the bot is alive)' },
-            { name: '.quote', value: 'This gives a movie quote (Someday gonna make an add quote function so you can add your own quotes'},
+            { name: '.quote', value: 'This gives a movie quote (Someday gonna make an add quote function so you can add your own quotes)'},
             { name: '.who', value:'Says who the bot is'},
             { name: '.pun', value: 'Not implemented yet!'}
         )
